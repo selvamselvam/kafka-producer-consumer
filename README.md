@@ -1,6 +1,6 @@
 # Kafka producer consumer Example
 
-pache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. This sample project explain the simple producer and consumer options avilabel from Spring boot Kafka module. 
+Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. This sample project explain the simple producer and consumer options avilabel from Spring boot Kafka module. 
 
 - Uses Springboot Kafka Client 2.7.0
 - Apache Kafka 2.13 - 2.8.0
