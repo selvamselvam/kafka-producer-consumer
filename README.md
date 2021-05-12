@@ -2,9 +2,10 @@
 
 pache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. This sample project explain the simple producer and consumer options avilabel from Spring boot Kafka module. 
 
-- Uses Springboot Kafka Client
-- Kafka 2.13 - 2.8.0
-- Windows platform
+- Uses Springboot Kafka Client 2.7.0
+- Apache Kafka 2.13 - 2.8.0
+- Apache zookeeper 3.7.0
+- Windows 10
 
 ## Features
 
@@ -16,11 +17,11 @@ pache Kafka is an open-source distributed event streaming platform used by thous
 
 Kafka producer and consumer uses a number of open source projects to work properly:
 
-- [OpenJDK] - Open JDK
-- [Apache Kafka] - open-source distributed event streaming platform 
-- [IntelliJ IDEA Community] - free community IDEA
+- [OpenJDK](https://adoptopenjdk.net/installation.html) - Open JDK
+- [Apache Kafka](https://kafka.apache.org/) - open-source distributed event streaming platform 
+- [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/#section=windows) - free community IDEA
+- [zookeeper](https://zookeeper.apache.org/) - install zookeeper on windows
 - [Gradle] - IntelliJ IDEA default Gradle plugin
-- [zookeeper] - install zookeeper on windows
 - [windows] - uses windows Operating system
 
 
@@ -83,6 +84,14 @@ cd producer
 
 
 > Note: We uses Windows 10 operating system single node setup.
+
+
+
+## Reference
+* [Spring for Apache Kafka](https://docs.spring.io/spring-kafka/docs/current/reference/html/)
+* [Setting Up and Running Apache Kafka on Windows OS](https://dzone.com/articles/running-apache-kafka-on-windows-os)
+* [Kafka Clients](https://docs.confluent.io/3.3.0/clients/index.html)
+
 
 ## License
 MIT
